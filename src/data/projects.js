@@ -1,11 +1,11 @@
- import PortfolioImg from "../assets/projects/portfolio.png"; 
+ import portfolio from "../assets/projects/portfolio.png"; 
 
- import ProjectManagementImg from "../assets/projects/projectmanager.png";
+ import projectmanager from "../assets/projects/projectmanager.png";
  
  const projects = [
     {
         title: "Personal Portfolio Website",
-        image: PortfolioImg,
+        image: portfolio,
         description:"A responsive and visually appearing personal portfolio website built with ReactJs and Tailwind CSS. It showcases my projects and skills.",
         tech:"React | Tailwind CSS | Javascript",
         githublink:"",
@@ -13,7 +13,7 @@
     },
      {
         title: "Project Management Project",
-        image:ProjectManagementImg,
+        image: projectmanager,
         description:"A project management application that allows users to create, organize, and track their projects.",
         tech:"React | Javascript",
         githublink:"",
