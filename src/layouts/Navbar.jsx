@@ -47,7 +47,7 @@ function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center justify-between gap-2">
           <img
-            src={profileLogo}
+            src={profilelogo}
             alt="Pallavi Bhalerao"
             className="w-10 h-10 rounded-full shadow-lg shadow-indigo-300 dark:shadow-gray-700"
           />
