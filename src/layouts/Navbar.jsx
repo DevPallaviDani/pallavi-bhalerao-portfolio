@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import ThemeToggle from "../components/ThemeToggle";
-import profileLogo from "../assets/images/profileLogo.png";
+import profilelogo from "../assets/images/profilelogo.png";
 
 function Navbar() {
   const navLink =

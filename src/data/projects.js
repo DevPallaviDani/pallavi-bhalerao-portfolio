@@ -1,7 +1,6 @@
- import PortfolioImg from "../assets/Projects/Portfolio_LightMode.png"; 
- import ToDoListImg from "../assets/Projects/ToDoList.png";
- import WeatherAppImg from "../assets/Projects/WeatherApp.png";
- import ProjectManagementImg from "../assets/Projects/ProjectManagementScreenshot.png";
+ import PortfolioImg from "../assets/projects/portfolio.png"; 
+
+ import ProjectManagementImg from "../assets/projects/projectmanager.png";
  
  const projects = [
     {
