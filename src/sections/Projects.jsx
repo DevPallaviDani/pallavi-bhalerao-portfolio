@@ -1,14 +1,30 @@
-import React from 'react'
-
+import React from "react";
+import projects from "../data/projects";
+import ProjectCard from "../layouts/ProjectCard";
 function Projects() {
   return (
-    <div className="p-4 md:p-8">
-      <h2 className="text-2xl font-bold mb-4">My Projects</h2>
-      <p className="text-gray-700 dark:text-gray-300">
-        Here are some of the projects I've worked on. Each project showcases my skills in React, JavaScript, and modern web development practices.
-      </p>
-    </div>
-  )
+    <section
+      id="projects"
+      className="min-h-screen py-24 flex flex-col x-8 bg-gray-50 dark:bg-gray-900"
+    >
+      <div>
+       <h2 className="text-3xl md:text-4xl text-center font-bold mb-16">
+            My <span className="text-indigo-500">Projects</span>
+          </h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl overflow-hidden shadow-sm 
+                  hover:shadow-xl hover:-translate-y-2 transition duration-300"
+            >
+              <ProjectCard project={project} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Projects
+export default Projects;
