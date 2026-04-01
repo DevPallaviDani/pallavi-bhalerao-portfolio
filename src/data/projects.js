@@ -1,5 +1,5 @@
  import portfolio from "../assets/projects/portfolio.png"; 
-
+import weatherdashboard from "../assets/projects/skyliteweather.png"
  import projectmanager from "../assets/projects/projectmanager.png";
  
  const projects = [
@@ -27,14 +27,14 @@
     //     githublink:"",
     //     live:""
     // },
-    // {
-    //     title: "Weather App",
-    //     image: WeatherAppImg,
-    //     description:"A weather application that displays current weather information and forecasts for a given location.",
-    //     tech:"React | Javascript",
-    //     githublink:"",
-    //     live:""
-    // },
+    {
+        title: "Weather App",
+        image: weatherdashboard,
+        description:"A weather application that displays current weather information and forecasts for a given location.",
+        tech:"React | Javascript",
+        githublink:"https://github.com/DevPallaviDani/weather-dashboard",
+        live:"https://weather-dashboard-by-pallavi.vercel.app"
+    },
     // {
     //     title: "Currency Converter",
     //     image:WeatherAppImg,
