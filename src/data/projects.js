@@ -12,12 +12,12 @@ import weatherdashboard from "../assets/projects/skyliteweather.png"
         live:"https://pallavibhalerao.vercel.app"
     },
      {
-        title: "Project Management Project",
+        title: "Project Management Dashboard",
         image: projectmanager,
         description:"A project management application that allows users to create, organize, and track their projects.",
         tech:"React | Javascript",
-        githublink:"",
-        live:""
+        githublink:"https://github.com/DevPallaviDani/Project-Management",
+        live:"https://karya-hub-dashboard-zeta.vercel.app/"
     },
     // {
     //     title: "Todo List App",
