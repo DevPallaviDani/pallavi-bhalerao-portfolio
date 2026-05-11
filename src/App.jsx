@@ -7,6 +7,7 @@ import Skills from "./sections/Skills";
 import Navbar from "./layouts/Navbar";
 import Footer from "./layouts/Footer";
 import ScrollTop from "./components/ScrollTop";
+import { Analytics } from "@vercel/analytics/next";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       </main>
       <ScrollTop />
       <Footer />
+      <Analytics/>
     </>
   );
 }
