@@ -7,7 +7,7 @@ import Skills from "./sections/Skills";
 import Navbar from "./layouts/Navbar";
 import Footer from "./layouts/Footer";
 import ScrollTop from "./components/ScrollTop";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
