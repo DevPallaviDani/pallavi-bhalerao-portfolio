@@ -15,7 +15,7 @@ import weatherdashboard from "../assets/projects/skyliteweather.png"
         title: "Project Management Dashboard",
         image: projectmanager,
         description:"A project management application that allows users to create, organize, and track their projects.",
-        tech:"React | Javascript",
+        tech:"React | Tailwind CSS | Javascript",
         githublink:"https://github.com/DevPallaviDani/Project-Management",
         live:"https://karya-hub-dashboard-zeta.vercel.app/"
     },
@@ -31,7 +31,7 @@ import weatherdashboard from "../assets/projects/skyliteweather.png"
         title: "Weather App",
         image: weatherdashboard,
         description:"A weather application that displays current weather information and forecasts for a given location.",
-        tech:"React | Javascript",
+        tech:"React | Tailwind CSS | Javascript",
         githublink:"https://github.com/DevPallaviDani/weather-dashboard",
         live:"https://weather-dashboard-by-pallavi.vercel.app"
     },
